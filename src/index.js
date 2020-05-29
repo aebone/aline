@@ -1,8 +1,11 @@
 import React from "react";
 import ReactDOM from "react-dom";
+import Timeless from "./timeless/components/Timeless";
 
 const App = () => {
-    return <div>Oi</div>
+    return <div>
+        <Timeless/>
+    </div>
 }
 
 ReactDOM.render(<App/>, document.getElementById("root"));
